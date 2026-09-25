@@ -37,7 +37,7 @@
 
     .harga {
         font-variant-numeric: tabular-nums;
-        color: #bc4749;
+        color: #60bc47;
         font-weight: 600;
     }
 
@@ -58,8 +58,8 @@
     }
 
     .btn-danger {
-        background: #bc4749;
-        border-color: #bc4749;
+        background: #babc47;
+        border-color: #66bc47;
     }
 
     .navbar {
