@@ -30,7 +30,7 @@
                 <tbody>
                     @forelse ($produks as $produk)
                         <tr>
-                            <td>{{ $produk->id }}</td>
+                            <td>{{ $loop ->iteration }}</td>
                             <td>{{ $produk->nama_produk }}</td>
 
                             <td class="text-end harga">Rp {{ number_format($produk->harga, 0, ',', '.') }}</td>
@@ -61,7 +61,7 @@
             </table>
         </div>
 
-       
+
         <div class="mt-3">{{ $produks->links('pagination::bootstrap-5') }}</div>
     </div>
 @endsection
